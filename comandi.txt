@@ -1,0 +1,12 @@
+  120  git clone https://github.com/sena-meucci/progettoStampa.git
+  121  cd progettoStampa/
+  122  git branch BugFix
+  123  git add -A
+  124  git commit -m "inserito nome"
+  125  git checkout BugFix 
+  126  git add -A
+  127  git commit -m "errore risolto in stampa"
+  128  git checkout master
+  129  git merge BugFix 
+  130  git branch -d BugFix
+  131  history 11 > comandi.txt
